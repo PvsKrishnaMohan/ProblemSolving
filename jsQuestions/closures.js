@@ -12,3 +12,10 @@ function OuterFun() {
 const res = OuterFun(); // Call OuterFun to get the inner function
 console.log(res);
 res()
+
+// uses
+//👉 used in currying
+//👉 setTimeuts
+//👉  for iterators
+//👉 used for memorization
+//👉 maintaining state for async world
